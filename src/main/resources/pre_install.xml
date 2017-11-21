@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<packageCleanSpec>
+    <packageDir>probes/application/UIM-field_ftp_response</packageDir>
+    <logFileName>pre_install.log</logFileName>
+    <filesToDelete>
+        <filePattern>
+            <pattern>.*</pattern>
+            <excludePattern>.*\.cf.</excludePattern>
+            <excludePattern>pre_install.*</excludePattern>
+            <excludePattern>.*\.log</excludePattern>
+            <excludePattern>archivedFiles</excludePattern>
+        </filePattern>
+    </filesToDelete>
+    <filesToArchive>
+        <file>UIM-field_ftp_response.cfg</file>
+        <file>UIM-field_ftp_response.log</file>
+        <file>_UIM-field_ftp_response.log</file>
+    </filesToArchive>
+</packageCleanSpec>
